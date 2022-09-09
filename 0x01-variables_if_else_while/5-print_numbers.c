@@ -4,7 +4,7 @@
 
 /**
 
-  * main - Ommit some alphabet
+  * main - Prints the numbers since 0 to 9
 
   *
 
@@ -16,21 +16,15 @@ int main(void)
 
 {
 
-	char c;
+	char n;
 
 
 
-	for (c = 'a'; c <= 'z'; c++)
+	for (n = '0'; n <= '9'; n++)
 
 	{
 
-		if (c != 'e' && c != 'q')
-
-		{
-
-			putchar(c);
-
-		}
+		putchar(n);
 
 	}
 
