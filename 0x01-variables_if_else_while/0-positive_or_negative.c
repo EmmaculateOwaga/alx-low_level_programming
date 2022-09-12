@@ -8,11 +8,9 @@
 
 /**
 
- * main - Prints if number is positive, zero or negative
+ * main - Prints if number is zero, positive or negative
 
- *
-
- * Return: Always (Success)
+ * Return: 0 Successfully
 
  */
 
