@@ -8,7 +8,9 @@
 
 /**
 
- * main - Prints if number is zero, positive or negative
+ * main – assign a random number to int n everytime.
+
+ * it executes and prints
 
  * Return: 0 Successfully
 
