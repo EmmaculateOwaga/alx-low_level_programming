@@ -2,9 +2,9 @@
 
 /**
 
- * main - print single digit numbers starting from 0
+ * main - print all possible different combinations of two digits.
 
- *
+ * it executes and separate numbers by , followed by a space
 
  * Return: returns zero at the end
 
