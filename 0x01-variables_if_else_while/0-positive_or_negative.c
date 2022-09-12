@@ -8,11 +8,11 @@
 
 /**
 
- * main – assign a random number to int n everytime.
+ * main - assign a random number to int n everytime.
 
  * it executes and prints
 
- * Return: 0 Successfully
+ * Return: always 0
 
  */
 
