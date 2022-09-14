@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * jack_baver - function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59, mins loop counts mins, while hours loop counts hours and resets mins
+ * jack_bauer - function that prints every minute of the day of jack_bauer, starting from 00:00 to 23:59, mins loop counts mins, while hours loop counts hours and resets mins
  *
  * Return: 0
  */
-void jack_baver(void)
+void jack_bauer(void)
 {
 	int hours = 0;
 	int minutes = 0;
