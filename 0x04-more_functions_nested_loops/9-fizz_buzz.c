@@ -32,5 +32,6 @@ int main(void)
 				printf("Buzz");
 			}
 		}
+		printf("%ld\n", Buzz);
+		return (0);
 	}
-}
