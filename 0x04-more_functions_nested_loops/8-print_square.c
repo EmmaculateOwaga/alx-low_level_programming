@@ -20,7 +20,7 @@ void print_square(int size)
 				putchar('#');
 			}
 
-			putchat('#');
+			putchar('#');
 			putchar('\n');
 		}
 	}
