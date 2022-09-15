@@ -2,26 +2,26 @@
 
 /**
  * largest_number - returns the largest of 3 numbers
- * @m: first integer
- * @n: second integer
- * @o: third integer
+ * @a: first integer
+ * @b: second integer
+ * @c: third integer
  * Return: largest number
  */
 
-int largest_number(int m, int n, int o)
+int largest_number(int a, int b, int c)
 {
 	int largest;
-	if (m >= n && m >= o)
+	if (a >= b && a >= c)
 	{
-		largest = m;
+		largest = a;
 	}
-	else if (n >= m && n >= o)
+	else if (b >= a && b >= c)
 	{
-		largest = n;
+		largest = b;
 	}
 	else
 	{
-		largest = o;
+		largest = c;
 	}
 	return (largest);
 }
