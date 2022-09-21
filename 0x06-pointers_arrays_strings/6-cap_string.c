@@ -17,8 +17,8 @@ char *cap_string(char *y)
 		i = 0;
 		while (i < len)
 		{
-			if ((a == 0 || s[a - 1] == spc[i]) && (s[a] >= 97 && s[a] <= 122))
-				s[a] = a[a] - 32;
+			if ((a == 0 || y[a - 1] == spc[i]) && (y[a] >= 97 && y[a] <= 122))
+				y[a] = a[a] - 32;
 			i++;
 		}
 		a++;
