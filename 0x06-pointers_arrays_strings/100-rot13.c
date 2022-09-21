@@ -7,7 +7,7 @@
  * Return: address of the encoded string
  */
 
-char *rot13(char *)
+char *rot13(char *x)
 {
 	int i = 0;
 
@@ -20,7 +20,7 @@ char *rot13(char *)
 }
 
 /**
- * tranform_2 - function to map a letter with its rot13 encoding
+ * transform_2 - function to map a letter with its rot13 encoding
  * @x: char to be encoded
  *
  * Return: the encoded character
