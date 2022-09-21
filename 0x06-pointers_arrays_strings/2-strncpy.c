@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * _strncat - a function that copies a string
+ * strncpy - a function that copies a string
  * @dest: first parameter
  * @src: second parameter
  * @n: third parameter
