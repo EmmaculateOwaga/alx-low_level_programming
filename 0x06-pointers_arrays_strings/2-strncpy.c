@@ -6,7 +6,7 @@
  * @dest: first parameter
  * @src: second parameter
  * @n: third parameter
- * Return: Always 0 a string
+ * Return: a string
  */
 
 char *_strncpy(char *dest, char *src, int n)
