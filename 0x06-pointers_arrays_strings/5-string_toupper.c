@@ -2,19 +2,19 @@
 
 /**
  * string_toupper - changes all lowercase letters of a string to uppercase
- * @X: string parameter
+ * @y: string parameter
  * Return: string
  */
 
-char *string_toupper(char *X)
+char *string_toupper(char *y)
 {
 	int i = 0;
 
-	while (X[i])
+	while (y[i])
 	{
-		if (X[i] >= 97 && X[i] <= 122)
-			X[i] = X[i] - 32;
-		i++
+		if (y[i] >= 97 && y[i] <= 122)
+			y[i] = y[i] - 32;
+		i++;
 	}
-	return (X);
+	return (y);
 }
