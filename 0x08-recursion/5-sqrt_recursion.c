@@ -28,7 +28,6 @@ int helperFunction(int num, int pSqrt)
  * @n: number to find square root of
  * -1 if n does not have a natural sqrt
  */
-
 int _sqrt_recursion(int n)
 {
 	if (n < 0)
