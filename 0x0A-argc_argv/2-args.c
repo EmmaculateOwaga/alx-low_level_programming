@@ -11,9 +11,9 @@
 
 int main(int argc, char *argv[])
 {
-	int count - 0;
+	int count = 0;
 
-	if (argc > 0);
+	if (argc > 0)
 	{
 		while (count < argc)
 		{
@@ -21,5 +21,6 @@ int main(int argc, char *argv[])
 			count++;
 		}
 	}
+
 	return (0);
 }
