@@ -4,7 +4,7 @@
  * free_grid - frees a 2d array
  * @grid: memory block to be freed
  * @height: height of the array
- * Return: returns void
+ * Return: Nothing
  */
 
 void free_grid(int **grid, int height)
