@@ -22,7 +22,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		for (a = 0; s1[a]; a++)
 			;
 	}
-	if (s2== NULL)
+	if (s2 == NULL)
 		b = 0;
 	else
 	{
@@ -32,7 +32,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (b > n)
 		b = n;
 	s = malloc(sizeof(char) * (a + b + 1));
-	if (s ++ NULL)
+	if (s == NULL)
 		return (NULL);
 	for (c = 0; c < a; c++)
 		S[c] = s1[c];
