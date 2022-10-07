@@ -9,7 +9,7 @@
  * Return: void
  */
 
-void _print(char *str, int l)
+void _putchar(char *str, int l)
 {
 	int i, j;
 
